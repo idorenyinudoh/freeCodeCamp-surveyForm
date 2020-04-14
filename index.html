@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title"></h1>
+    <p id="description">Take your time and enjoy my workflow</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">
+            Name: <input name="name" id="name" type="text" required placeholder="Udoh Idorenyin">
+        </label>
+        <label for="email" id="email-label">
+            Email: <input name="email" id="email" type="email" required placeholder="example@google.com">
+        </label>
+        <label for="number" id="number-label">
+            Any Number: <input name="number" id="number" type="number" min="10" max="50" placeholder="11">
+        </label>
+        <label for="dropdown" id="dropdown-label">
+            Select your favorite name from this list
+            <select id="dropdown">
+                <option id="precious">Precious</option>
+                <option id="valerie">Valerie</option>
+                <option id="ebby">Ebby</option>
+                <option id="ab">Ab</option>
+            </select>
+        </label>
+        <p>How would you say life has been to you in the past months?</p>
+        <input type="radio" name="how" id="good">
+        <label for="good">Good</label>
+        <input type="radio" name="how" id="bad">
+        <label for="bad">Bad</label>
+        <input type="radio" name="how" id="amazing">
+        <label for="amazing">Amazing</label>
+        <input type="radio" name="how" id="cant">
+        <label for="cant">Can't say</label>
+        <p>Your best snack(s)?</p>
+        <input type="checkbox" name="choose" id="doughnut" value="doughnut">
+        <label for="doughnut">Doughnut</label>
+        <input type="checkbox" name="choose" id="shawarma" value="shawarma">
+        <label for="shawarma">Shawarma</label>
+        <input type="checkbox" name="choose" id="meatpie" value="meatpie">
+        <label for="meatpie">Meat pie</label>
+        <br>
+        <label for="texta">What do you think about my form?</label>
+        <br>
+        <textarea id="texta" rows="5" cols="25"></textarea>
+        <button id="submit" value="submit">Submit</button>
+    </form>
+</body>
+</html>
